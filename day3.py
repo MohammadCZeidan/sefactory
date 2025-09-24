@@ -42,3 +42,9 @@ print("installed git")
 #remove commit from history
 #git reset --soft HEAD~1
 
+print("git and github")
+#-remove the last commit but keep changes in working directory
+#git reset --hard HEAD~1
+#-remove the last commit and discard changes
+#git checkout -- <file name>
+#-discard changes in a file
