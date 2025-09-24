@@ -50,3 +50,5 @@ git reset --hard HEAD~1
 git checkout -- <file name>
 -discard changes in a file
 print("github")
+#the created branch will inherit the commits of its parents
+#the new commits on the new branch will not be reflected in the parent branch
