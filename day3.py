@@ -48,3 +48,4 @@ print("git and github")
 #-remove the last commit and discard changes
 #git checkout -- <file name>
 #-discard changes in a file
+print("github")
