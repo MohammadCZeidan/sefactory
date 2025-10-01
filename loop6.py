@@ -35,11 +35,34 @@
 #enumerate
 #enumerate(list) -> (index, value)
 #while loop
-# while condition:
+# while condition or chained condition:
 # while True:
     # print("hello world")#condition  we
     # break
-conter =0
-while conter < 10:
-    print("Counter: ",conter)
-    conter = conter + 1
+# conter =0
+# while conter < 10:
+    # print("Counter: ",conter)
+    # conter = conter + 1
+# counter = 0
+# while counter < 10:
+    # print("Counter: ",counter)
+    # skip 5
+    
+    # if counter == 5:
+        # continue
+    # counter = counter + 1 # it won't increment when counter is 5
+    # counter += 1
+# ad = 0
+# while ad < 10:
+    #skip 5
+    # ad = ad + 1
+    # if ad == 5:
+        # continue
+    # print("Counter: ",ad)
+ad = 0
+while ad < 10:
+    #skip 5
+    ad = ad + 1
+    if ad == 5:
+        break
+    print("Counter: ",ad)
