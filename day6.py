@@ -15,7 +15,7 @@ my_tuple.append(6) #does not work
 my_tuple.extend([7,8,9]) #does not work
 my_tuple.insert(0,0) #does not work
 my_tuple.pop(3) #does not work
-my_ruple[2]="moe" #does not work
+my_tuple[2]="moe" #does not work
 #but we can access the elements of the tuple
 print(my_tuple[2]) #works
 

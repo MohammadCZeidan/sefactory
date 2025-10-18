@@ -4,7 +4,7 @@
 
 
 #car
-#colior:blue
+#color:blue
 #brand :toyota
 #engine:hybrid
 #windows:Tinted
@@ -43,8 +43,6 @@ s2= Student("moe",20)
 print("s1")
 print(s1.name)
 print(s1.grade)
-print(type([1,2]))
-print(type([s1]))
 s1= Student("joe",10)
 s2= Student("moe",20)
 s1.intro_yourself()

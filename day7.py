@@ -9,7 +9,7 @@ r= t+g
 #function
 #the yare of piece of code that is used multiple times throughout the program
 #define a function telling your pogram that this piece of code is ready to be used at any time
-# def add_numbers(a,b):
+# def add_numbers(a,b): 
     # return a+b
 # input_name = input("Enter your name: ")
 # def greet(input_name):

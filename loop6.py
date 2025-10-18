@@ -1,16 +1,16 @@
 
 #flow control
 #loops
-# ny_lisrt = ["manhattan", "bronx", "brooklyn", "queens", "staten island"]    
-# for i in ny_lisrt:
+# my_lisrt = ["manhattan", "bronx", "brooklyn", "queens", "staten island"]    
+# for i in my_lisrt:
     # print(i)
-    #for is a keyword
-    #i is a variable
-    #in is a keyword
-    #ny_list is a list variable
-    # for bla in ny_lisrt:
+    # for is a keyword
+    # i is a variable
+    # in is a keyword
+    # ny_lisrt is a list variable
+    # for bla in my_lisrt:
         # print(bla)
-        # print("1")
+        # print("123")
         # print("hello world")
         # x=10*5
         # print(x)
@@ -24,14 +24,14 @@
     #range(start, stop)
     #range(m,n,s) -> m to n-1 with step s sarts from m and add s each time
 #range(start, stop, step)
-# my_lisrt = ["manhattan", "bronx", "brooklyn", "queens", "staten island"]    
+my_lisrt = ["manhattan", "bronx", "brooklyn", "queens", "staten island"]    
 # for index in range(0,len(my_lisrt)):
     # print("index: ",index)
     # print("value: ", my_lisrt[index])
 
-# for var_1 , var_2 in enumerate(my_lisrt):
-    # print("index: ",var_1)
-    # print("value: ", var_2)
+for var_1 , var_2 in enumerate(my_lisrt):
+    print("index: ",var_1)
+    print("value: ", var_2)
 #enumerate
 #enumerate(list) -> (index, value)
 #while loop
@@ -39,10 +39,10 @@
 # while True:
     # print("hello world")#condition  we
     # break
-# conter =0
-# while conter < 10:
-    # print("Counter: ",conter)
-    # conter = conter + 1
+conter =0
+while conter < 10:
+    print("Counter: ",conter)
+    conter = conter + 1
 # counter = 0
 # while counter < 10:
     # print("Counter: ",counter)
@@ -59,10 +59,10 @@
     # if ad == 5:
         # continue
     # print("Counter: ",ad)
-ad = 0
-while ad < 10:
-    #skip 5
-    ad = ad + 1
-    if ad == 5:
-        break
-    print("Counter: ",ad)
+# ad = 0
+# while ad < 10:
+    # skip 5
+    # ad = ad + 1
+    # if ad == 5:
+        # break
+    # print("Counter: ",ad)
