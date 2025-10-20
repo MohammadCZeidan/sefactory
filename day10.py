@@ -85,9 +85,13 @@ class linked_list:
                 current=current.next
     def delete_value(self,value):     
             if self.head == None:
-                return
+                return 
+            elif self.head.data==value:
+                 self.head=self.head.next
+                 return
             curr= self.head
             found =False
+        
             while curr.next!=None:
                 
                 if curr.next.data==value:
@@ -112,8 +116,9 @@ class linked_list:
             
             return False
 l=linked_list()
+l.insert_at_end(1)
 l.insert_at_end(5)
 l.insert_at_end(555)
 
-l.delete_value(555)
+l.delete_value(1)
 l.display()
