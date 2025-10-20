@@ -2,9 +2,9 @@
 #https://algorithm-visualizer.seancoughlin.me/sorting/selectionSort
 #find the smallest element in the array and swap it with the first element
 def selection_sort(list):
-    n = len(list)
-    for i in range(len(list)-1):
-        min_index = i
+    n = len(list)#[3,2,5,6]
+    for i in range(n-1):#
+        min_index  = i #[3(0),2,5,6]
         for j in range(i + 1, n):
             if list[j] < list[min_index]:
                 min_index = j
@@ -28,7 +28,7 @@ def merge_sort(list):
         while i < len(left_half) and j < len(right_half):
             if left_half[i] < right_half[j]:
                 list[k] = left_half[i]
-                i += 1
+                i =i+ 1
             else:
                 list[k] = right_half[j]
                 j += 1
@@ -44,3 +44,4 @@ def merge_sort(list):
             j += 1
             k += 1
     return list
+merge_sort([1,34,5,1,4])
